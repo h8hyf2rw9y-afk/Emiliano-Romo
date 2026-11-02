@@ -1,226 +1,118 @@
 <div align="center">
-  <img src="./assets/profile-hero.svg" width="100%" alt="Emiliano González Romo — software built around how work really happens" />
+  <img src="./assets/profile-hero.svg" width="100%" alt="Emiliano González Romo — from customer problems to production systems" />
 </div>
 
 <br/>
 
-<table>
-<tr>
-<td width="64%" valign="top">
+# Emiliano González Romo — Engineering Overview
 
-### I turn operational complexity into useful software.
+<p>
+  <a href="https://h8hyf2rw9y-afk.github.io/Portfolio/"><img src="https://img.shields.io/badge/LIVE_PORTFOLIO-6D5DFC?style=flat-square&logo=googlechrome&logoColor=white" alt="Live portfolio" /></a>
+  <a href="https://state-ai-frontend.vercel.app/"><img src="https://img.shields.io/badge/OPEN_PROPPILOT-173F35?style=flat-square&logo=vercel&logoColor=white" alt="Open PropPilot" /></a>
+  <a href="https://www.linkedin.com/in/emiliano-gonzalez-tech/"><img src="https://img.shields.io/badge/LINKEDIN-437665?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+</p>
 
-I work between **customers, product, and engineering**: understanding how a team actually operates, translating that reality into a system, and carrying it from an unclear problem to a deployed product.
+## What this repository is
+
+This is a concise index of my public engineering work. It is designed for recruiters, engineering leaders, and potential clients who want to understand how I move from an unclear customer problem to a deployed system.
 
 My strongest work combines:
 
 - direct customer and workflow discovery;
 - full-stack product delivery;
-- applied AI with explicit human and data boundaries;
-- technical decisions connected to business outcomes.
+- applied AI with explicit data and human-control boundaries;
+- technical decisions connected to operational outcomes.
 
-</td>
-<td width="36%" valign="top">
+## Current direction
 
-### Current focus
+I am focused on **Forward Deployed Engineering**, **AI Solutions Engineering**, and customer-facing full-stack roles in LATAM.
 
-**Forward Deployed Engineering**  
-**AI Solutions Engineering**  
-**Full-Stack Product Delivery**
+Before building software products, I worked directly with real-estate clients and sales teams. That experience taught me to look beyond the initial request, model the real operation, and remain accountable after delivery.
 
-Monterrey, Mexico · Open to remote and international teams
+## Oniria
 
-</td>
-</tr>
-</table>
+**Founder · Software consulting and product development**
 
-<p>
-  <a href="https://state-ai-frontend.vercel.app/"><img src="https://img.shields.io/badge/OPEN_PROPPILOT-173F35?style=flat-square&logo=vercel&logoColor=white" alt="Open PropPilot" /></a>
-  <a href="https://h8hyf2rw9y-afk.github.io/Portfolio/"><img src="https://img.shields.io/badge/VIEW_PORTFOLIO-C45F3B?style=flat-square&logo=googlechrome&logoColor=white" alt="View portfolio" /></a>
-  <a href="https://www.linkedin.com/in/emiliano-gonzalez-tech/"><img src="https://img.shields.io/badge/LINKEDIN-437665?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-</p>
+Oniria is my software company. It helps teams translate operational problems into maintainable digital products through discovery, workflow design, architecture, implementation, security, and delivery.
 
----
+Its first product is **PropPilot**, a real-estate operations platform currently working inside Crestify and being prepared for additional companies.
 
-## Selected work
+## PropPilot
 
-<table>
-<tr>
-<td width="58%" valign="top">
+### The operating problem
 
-### PropPilot · StateAI
+Real-estate acquisition work was distributed across messages, calls, spreadsheets, incomplete property files, debt calculations, proposals, and individual memory.
 
-**Independent product · Lead engineering**
+### The product
 
-A vertical SaaS for real-estate acquisition and property-flipping operations. PropPilot connects lead capture, property files, debt context, proposals, negotiation, follow-up, and post-acquisition operations in one workflow.
+PropPilot brings contacts, properties, acquisition cases, debts, offers, tasks, appointments, permissions, and controlled AI assistance into one operating workflow.
 
-I own the path from operational discovery to product definition, architecture, full-stack implementation, AI boundaries, security, testing, and delivery.
+### My ownership
 
-**Built around**
+| Area | Work |
+| --- | --- |
+| Product | Discovery, requirements, prioritization, workflow design |
+| Frontend | Next.js, React, TypeScript, responsive application flows |
+| Backend | FastAPI, Pydantic, service and repository layers |
+| Data | PostgreSQL, Supabase, SQLAlchemy 2.0, Alembic |
+| Security | Authentication, JWT access, role-aware records, field boundaries |
+| Applied AI | Structured extraction, contextual retrieval, allowlists, human confirmation |
+| Delivery | Automated tests, Git, GitHub Actions, CI/CD, deployment |
 
-`Next.js` · `React` · `TypeScript` · `FastAPI` · `PostgreSQL` · `Supabase` · `Python`
+### Engineering flow
 
-[Open the live product →](https://state-ai-frontend.vercel.app/)  
-[Read the engineering case study →](https://github.com/h8hyf2rw9y-afk/StateAI-Overview)
+```mermaid
+flowchart LR
+    C[Customer workflow] --> D[Domain model]
+    D --> W[Next.js interface]
+    W --> A[FastAPI services]
+    A --> P[(PostgreSQL)]
+    A --> AI[Controlled AI]
+    AI --> H[Human review]
+```
 
-</td>
-<td width="42%" valign="top">
+[Open the product →](https://state-ai-frontend.vercel.app/)  
+[Read the full case study →](https://github.com/h8hyf2rw9y-afk/StateAI-Overview)
 
-### What makes it different
+## Selected public work
 
-PropPilot was not designed from a generic CRM template. It came from observing real acquisition work: fragmented messages, incomplete files, debt calculations, handoffs, proposals, and follow-up that usually live across spreadsheets and memory.
+| Project | Context | Evidence |
+| --- | --- | --- |
+| Engineering Portfolio | Bilingual recruiter-facing web product | [Live site](https://h8hyf2rw9y-afk.github.io/Portfolio/) · [Repository](https://github.com/h8hyf2rw9y-afk/Portfolio) |
+| PropPilot | Oniria product operating inside Crestify | [Live product](https://state-ai-frontend.vercel.app/) · [Case study](https://github.com/h8hyf2rw9y-afk/StateAI-Overview) |
+| BabyDuck Compiler | Individual compiler implementation | [Repository](https://github.com/MasterZendika/BabyDuck-Compiler) |
+| Autonomous Harvest Simulation | Academic AI simulation | [Repository](https://github.com/MasterZendika/REVISION) |
+| Raíces | Personal interactive story | [Live experience](https://raices-six.vercel.app/) · [Repository](https://github.com/MasterZendika/raices) |
+| HackMTY · Capital One | 48-hour team hackathon in Monterrey | [Team repository](https://github.com/EstebanAleman21/404_NOTFOUND) |
+| Dilo en Señas | Collaborative accessibility system | [Team repository](https://github.com/AlonsoM207/Reto_Equipo1) |
+| FRIDA PDF Analyst | Collaborative document-intelligence system | [Team repository](https://github.com/Spooderman0/pdf-reader) |
 
-The product turns that ambiguity into a visible operating process while keeping sensitive decisions under human control.
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Engineering Portfolio
-
-A recruiter-focused portfolio covering selected projects, experience, and technical decisions.
-
-- Responsive desktop and mobile design
-- English and Spanish presentation
-- Expandable project narratives
-- Privacy-conscious contact handling
-- Automated GitHub Pages deployment
-
-[View the portfolio →](https://h8hyf2rw9y-afk.github.io/Portfolio/)
-
-</td>
-<td width="50%" valign="top">
-
-### Public engineering case study
-
-The production repositories for PropPilot remain private. The public case study explains the verified scope without exposing credentials, prompts, schemas, client records, or proprietary source code.
-
-It covers architecture, workflow modeling, AI safety boundaries, delivery practices, and my ownership.
-
-[Explore StateAI-Overview →](https://github.com/h8hyf2rw9y-afk/StateAI-Overview)
-
-</td>
-</tr>
-</table>
-
----
-
-## Selected earlier work
-
-<sub>These repositories currently live on my secondary GitHub account and will be consolidated gradually. Each project is labeled by context and ownership.</sub>
-
-<table>
-<tr>
-<td width="34%" valign="top">
-
-### BabyDuck Compiler
-
-**Academic project · Individual implementation**
-
-A multi-stage compiler built with Java, Maven, and ANTLR4: lexical, syntactic, and semantic analysis; intermediate quadruple generation; virtual memory; and execution through a custom virtual machine.
-
-**What I learned:** language design, parsing, type validation, intermediate representation, memory models, and technical documentation.
-
-[Review the compiler →](https://github.com/MasterZendika/BabyDuck-Compiler)
-
-</td>
-<td width="33%" valign="top">
-
-### Autonomous Harvest Simulation
-
-**Academic AI project**
-
-A 2D agricultural simulation exploring autonomous tractor agents for corn harvesting with Unity ML-Agents, C#, and Python.
-
-**What I learned:** agent/environment modeling, reward-driven behavior, simulation design, experimentation, and connecting Unity with an ML workflow.
-
-[Explore the simulation →](https://github.com/MasterZendika/REVISION)
-
-</td>
-<td width="33%" valign="top">
-
-### Raíces
-
-**Personal web project**
-
-A visual graduation experience built with HTML, JavaScript, Tailwind CSS, and static deployment on Vercel.
-
-**What I learned:** visual storytelling, responsive composition, asset-heavy web delivery, interaction design, and deploying a focused static experience.
-
-[Open the live experience →](https://raices-six.vercel.app/)  
-[Review the source →](https://github.com/MasterZendika/raices)
-
-</td>
-</tr>
-</table>
-
----
+Some earlier contributions were made from a previous GitHub account that is no longer accessible. Collaborative repositories remain under teammates' accounts; project descriptions state my role and do not claim sole ownership.
 
 ## How I work
 
-| 01 — Discover | 02 — Design | 03 — Deliver | 04 — Improve |
-|---|---|---|---|
-| Observe the real workflow and define the outcome. | Turn ambiguity into requirements, models, interfaces, and boundaries. | Build a useful vertical slice across product and engineering. | Validate with users, measure friction, and prioritize the next iteration. |
+| Discover | Model | Build | Operate |
+| --- | --- | --- | --- |
+| Observe the workflow and identify the real constraint. | Turn conversations into requirements, domain boundaries, and acceptance criteria. | Implement the useful path across interface, API, data, and security. | Deploy, validate with users, investigate failures, and improve the system. |
 
-> I am most useful where the problem is still partially undefined and the solution has to work for real people—not only pass a technical demo.
+> I am most useful where the problem is partially undefined and the solution has to work for real people—not only pass a technical demo.
 
----
-
-<details>
-<summary><strong>Technical toolkit</strong></summary>
-
-<br/>
+## Technical toolkit
 
 | Area | Tools and practices |
-|---|---|
+| --- | --- |
 | Product engineering | TypeScript, JavaScript, React, Next.js, Vite, Tailwind CSS |
 | Backend and data | Python, FastAPI, Pydantic, PostgreSQL, Supabase, SQLAlchemy, Alembic |
 | Cloud and delivery | Docker, GitHub Actions, AWS, Google Cloud, Vercel |
 | Applied AI | Structured extraction, contextual retrieval, workflow assistants, human-in-the-loop actions |
-| Engineering practice | Git, automated testing, CI/CD, technical documentation, iterative delivery |
+| Engineering practice | Automated testing, CI/CD, technical documentation, iterative delivery |
 
-</details>
+## Public boundaries
 
-<details>
-<summary><strong>Experience perspective</strong></summary>
-
-<br/>
-
-- **Crestify** — Founding Engineer / Co-Founder
-- **Wizeline** — Full-Stack Developer Intern
-- **Nodoo** — Sales Engineer
-- **Softtek** — Technology & Business Project Analyst
-- **Arca Continental** — Junior Special Project Manager Intern
-
-This mix of product, engineering, operations, and customer-facing work shapes how I build: technical decisions must remain understandable to stakeholders and useful to the people operating the system.
-
-</details>
-
-<details>
-<summary><strong>Current learning</strong></summary>
-
-<br/>
-
-- Linux foundations
-- Model Context Protocol — fundamentals and advanced topics
-- Claude Code workflows
-- Agent Skills
-- AI Fluency for Builders
-
-*Coursework is in progress unless explicitly marked as completed.*
-
-</details>
+Production repositories and customer records remain private. Public case studies explain verified problems, architecture, ownership, and engineering decisions without publishing credentials, prompts, proprietary schemas, or personal data.
 
 ---
 
-<div align="center">
-
 ### Useful software begins with understanding the work.
 
-[PropPilot](https://state-ai-frontend.vercel.app/) · [Portfolio](https://h8hyf2rw9y-afk.github.io/Portfolio/) · [LinkedIn](https://www.linkedin.com/in/emiliano-gonzalez-tech/) · [Engineering Case Study](https://github.com/h8hyf2rw9y-afk/StateAI-Overview)
-
-</div>
+[Portfolio](https://h8hyf2rw9y-afk.github.io/Portfolio/) · [PropPilot](https://state-ai-frontend.vercel.app/) · [Engineering case study](https://github.com/h8hyf2rw9y-afk/StateAI-Overview) · [LinkedIn](https://www.linkedin.com/in/emiliano-gonzalez-tech/)
